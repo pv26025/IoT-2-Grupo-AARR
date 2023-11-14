@@ -3,10 +3,10 @@ Projeto final de IoT
 
 # Colaboradores
 
--> Ângelo Nogueira
--> Antonio Almeida
--> Rafael Paulo
--> Rodrigo Cardoso
+- Ângelo Nogueira
+- Antonio Almeida
+- Rafael Paulo
+- Rodrigo Cardoso
 
 # Descrever projeto
 
