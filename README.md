@@ -16,13 +16,13 @@ Projeto final de IoT
 
 # Tecnologias Usadas
 
-#   ->Raspberry Pi 4 Model B (Having the extra computing power 'oomph' that the Pi provides is crucial for this task) - Ainda a ver
-#   ->Raspberry Pi Official Camera Module V2 (You can also use the Raspberry Pi High-Quality Camera) - Ainda a ver
-#   ->Micro SD Card 
-#   ->Power Supply 
-#   ->Monitor
-#   ->HDMI Cord 
-#   ->Mouse and Keyboard
+   - Raspberry Pi 4 Model B (Having the extra computing power 'oomph' that the Pi provides is crucial for this task) - Ainda a ver
+   - Raspberry Pi Official Camera Module V2 (You can also use the Raspberry Pi High-Quality Camera) - Ainda a ver
+   - Micro SD Card 
+   - Power Supply 
+   - Monitor
+   - HDMI Cord 
+   - Mouse and Keyboard
 
 # Arquitetura do projeto
 # Storytelling
