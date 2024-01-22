@@ -7,27 +7,26 @@
   - Ângelo Nogueira
   - Rafael Paulo
   - Rodrigo Cardoso
-  - António Almeida
 
 ## Visão Geral do Projeto:
 - **Título do Projeto:** 
  
-  Identificação e Alerta de Deslocamento de Target
+  Identificação e Controlo de temperatura e humidade de um local
 
 - **Breve Descrição do Projeto:**
   
-  O nosso projeto vai consistir em criar um modelo de camera que vigie um certo produto para que se o objeto se mover ou sair do sítio seja detetado por algum tipo de sensor, alertando o proprietario do objeto que o mesmo não stá no sitio.
+  Este projeto consiste na elaboração de um trabalho que permite monitorizar a temperatura e a humidade em vinhas na região do douro
 
 - **Objetivo do Projeto:**
   
 - **Contextualização da Aplicação IoT:**
-    Prevenção de roubos (lojas)
+    Controlo de temperatura e humidade
 ## Componentes do Projeto:
 
 ### 1. Sensores e Dispositivos:
 - **Lista de Sensores Utilizados:**
   
-  Camara
+  DHT11
 
 - **Descrição dos Dispositivos IoT Implementados:**
 
@@ -35,20 +34,22 @@
 - **Tipo de Conetividade Utilizada (Wi-Fi, Bluetooth, LoRa, etc.):**
 
     Wi-Fi
+    MQTT
 
 - **Justificação da Escolha da Conetividade:**
 
-    Mais rápido, mais documentado e acessível
+    Mais rápido e acessível
 
 ### 3. Plataforma e Protocolos:
 - **Plataforma de Desenvolvimento Utilizada:**
 
-    Kali
-    RaspiOS
-    OpenCV
+   Firebase
+   MQTT
+   Arduino IDE
 
 - **Protocolos de Comunicação Empregados:**
-
+    MQTT
+    WIFI
 
 
 ### 4. Arquitetura do Sistema:
@@ -60,21 +61,19 @@
 ### 1. Programação e Linguagens:
 - **Linguagens de Programação Utilizadas:**
 
-    Python
+    C++
 
 - **Justificação da Escolha das Linguagens:**
 
-    Mais Fiável, Mais variedade e Documentação
+    Linguagem de origem do Arduino IDE
 
 ### 2. Interface do Utilizador (UI):
 - **Descrição da Interface do Utilizador:**
 
-    Página Web
+    
 
 - **Facilidades e Desafios na Implementação da UI:**
 
-    - Alertas
-    - Imagem camara
   
 ### 3. Segurança:
 - **Medidas de Segurança Implementadas:**
@@ -88,11 +87,10 @@
 ### 1. Testes Funcionais:
 - **Descrição dos Testes Realizados:**
 
-    - Teste camara
-    - Reconhecimento objeto
-    - deteção movimento
-    - Envio/Receção de alerta
-    - Segurança 
+    - Teste do sensor (Nomeadamente verificar que este funciona e envia dados)
+    - Ligação dos sensores à Internet
+    - Ligação de um ESP32 para o outro através de MQTT para envio dos dados enviados pelo sensor
+    - Conexão dos esp32 ao firebase para tratamento dos dados
 
 - **Resultados dos Testes:**
 
