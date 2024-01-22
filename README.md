@@ -29,5 +29,5 @@ Imagine que trabalha na área da agricultura, seja vinhas ou algo do género, co
 
 # Resources
 
-#   https://core-electronics.com.au/guides/object-identify-raspberry-pi/
-#   https://developers.google.com/learn/pathways/get-started-object-detection
+#   
+#   
